@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinh Duc bai 2</title>
+    <style>
+        table, th, td {
+            border: 3px solid black;
+        }
+        th, td {
+            border:1px solid wheat;
+            margin: 2px;
+            padding: 10px;
+        }
+        table{
+            background-color: #5eb397;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" style="background-color: white"><p style="color: #279191;font-size: 20px"> Phiếu đăng ký tham gia chương trình khuyến mãi </p></th>
+        </tr>
+
+        <tr>
+            <th>Ho va ten: </th>
+            <th>
+                <form>
+                    <input name="fullname" type="text" >
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>Dia chi: </th>
+            <th>
+                <form>
+                    <input name="address" type="text" >
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>Dien thoai: </th>
+            <th>
+                <form>
+                    <input name="contract" type="number" >
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th>Phái: </th>
+            <th>
+                <input type="radio" name="gioiTinh">
+                <label>Nam</label>
+                <input type="radio" name="gioiTinh" >
+                <label>Nữ</label>
+            </th>
+        </tr>
+        <tr>
+            <th>Nghe nghiep </th>
+            <th>
+                <select name="job">
+                    <option>--Chon nghe nghiep--</option>
+                    <option>Thay giao</option>
+                    <option>Phu thuy</option>
+                    <option>Phap su</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>Chon san pham tham gia </th>
+            <th>
+                <select name="products">
+                    <option>--Chon san pham--</option>
+                    <option>May tinh</option>
+                    <option>Gay phep</option>
+                    <option>Bua ngai</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>So nguoi du doan </th>
+            <th>
+                <form>
+                    <input name="nop" type="number" >
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2"><button type="button">Dong y</button></th>
+        </tr>
+    </table>
+</body>
+</html>
