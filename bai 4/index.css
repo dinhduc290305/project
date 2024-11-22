@@ -1,0 +1,18 @@
+ul{
+    background-color: aqua;
+    padding: 0;
+    width: 100%;
+
+}
+li{
+    color: #1b478e;
+    display:inline-block;
+    line-height: 40px;
+    width: 19.57%;
+    text-align: center;
+    height: 50px;
+}
+li:hover{
+    color: white;
+    background-color: #1b478e;
+}

@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#blue{
+    color: cyan;
+}
+#nut{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#all{
+    padding: 10%;
+}
+#view{
+    padding: 10%;
+}
